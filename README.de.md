@@ -1,6 +1,6 @@
 # Spectral-Explorer
 
-> **Sprache:** [English](README.md) | Deutsch
+*Sprache: [English](README.md) | Deutsch*
 
 **Spectral-Explorer** ist ein USB-basiertes optisches Spektrometer mit zugehöriger Qt/C++-Desktop-Software für den naturwissenschaftlichen Unterricht (Physik, Chemie und Biologie) sowie für Hobby- und Laborexperimente. Das Projekt wurde beim 50. Bundeswettbewerb *Jugend forscht* mit einem Sonderpreis ausgezeichnet und ermöglicht präzise spektrale Messungen ohne teure Laborgeräte.
 
@@ -57,11 +57,11 @@ Vorkompilierte Programme finden Sie auf der Seite [GitHub Releases](https://gith
 * **Windows-Installationsprogramm (empfohlen):** Laden Sie `Spectral-Explorer-<version>-Setup.exe` herunter und führen Sie es aus, um das Programm inkl. Startmenü-/Desktop-Verknüpfung zu installieren.
 * **Portable ZIP-Version (ohne Admin-Rechte):** Laden Sie `Spectral-Explorer-<version>-portable.zip` herunter, entpacken Sie alle Dateien in einen beliebigen Ordner und starten Sie `Spectral-Explorer.exe`.
 
-> **Nächste Schritte:** Lesen Sie die **[Bedienungsanleitung](docs/user_guide.de.md)** für Sicherheitshinweise, Spalteinstellung, CFL-Wellenlängenkalibrierung (436 nm / 611 nm) und Software-Bedienung.
+**Nächste Schritte:** Lesen Sie die **[Bedienungsanleitung](docs/user_guide.de.md)** für Sicherheitshinweise, Spalteinstellung, CFL-Wellenlängenkalibrierung (436 nm / 611 nm) und Software-Bedienung.
 
 ## Hardware
 
-> **Selbst bauen?** Das Spektrometer nutzt ein 3D-gedrucktes, mattschwarzes Gehäuse für einen kostengünstigen, reproduzierbaren Nachbau. Folgen Sie der **[Hardware-Bauanleitung](hardware/assembly_instructions.de.md)**; alle `.stl`-Meshes, FreeCAD-Quelldateien (`.FCStd`) und Druckprofile (`.ini`) finden Sie in [`hardware/case/`](hardware/case/) und [`hardware/cuvette_holder/`](hardware/cuvette_holder/).
+**Selbst bauen?** Das Spektrometer nutzt ein 3D-gedrucktes, mattschwarzes Gehäuse für einen kostengünstigen, reproduzierbaren Nachbau. Folgen Sie der **[Hardware-Bauanleitung](hardware/assembly_instructions.de.md)**; alle `.stl`-Meshes, FreeCAD-Quelldateien (`.FCStd`) und Druckprofile (`.ini`) finden Sie in [`hardware/case/`](hardware/case/) und [`hardware/cuvette_holder/`](hardware/cuvette_holder/).
 
 * **Gehäuse & Deckel:** Hauptgehäuse ([`case.stl`](hardware/case/case.stl)), Deckel ([`cap.stl`](hardware/case/cap.stl)), Abdeckplatten ([`plate_front.stl`](hardware/case/plate_front.stl), [`plate_right.stl`](hardware/case/plate_right.stl)) und interner Mutternhalter ([`nut_holder.stl`](hardware/case/nut_holder.stl)) — in mattem Schwarz gedruckt, um interne Reflexionen zu minimieren.
 * **Optischer Spalt:** Zwei Rasierklingen-Hälften — eine fest verschraubte linke Hälfte ([`aperture.stl`](hardware/case/aperture.stl)) und eine magnetisch gehaltene rechte Hälfte ([`aperture_magnet.stl`](hardware/case/aperture_magnet.stl)) — über Rändelmuttern fein einstellbar.
@@ -76,7 +76,7 @@ Vorkompilierte Programme finden Sie auf der Seite [GitHub Releases](https://gith
 
 ## Aus dem Quellcode kompilieren (Entwickler)
 
-> **Normale Anwender benötigen diesen Abschnitt nicht** — nutzen Sie einfach das fertige Installationsprogramm oder die portable ZIP-Datei unter [Download & Installation (Windows)](#download--installation-windows).
+*Normale Anwender benötigen diesen Abschnitt nicht — nutzen Sie einfach das fertige Installationsprogramm oder die portable ZIP-Datei unter [Download & Installation (Windows)](#download--installation-windows).*
 
 Die detaillierten englischen Build-, Deployment-, Paketierungs- und Test-Anleitungen (Qt 5.11.3 MinGW 32-bit & OpenCV 2.4.13) finden Sie in [`README.md`](README.md#building-from-source-developers).
 

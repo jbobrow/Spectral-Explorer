@@ -1,6 +1,6 @@
 # Spectral-Explorer
 
-> **Language:** English | [Deutsch](README.de.md)
+*Language: English | [Deutsch](README.de.md)*
 
 **Spectral-Explorer** is a USB-based optical spectrometer and companion Qt/C++ desktop application designed for science education (physics, chemistry, and biology) as well as hobbyist and lab experiments. Originally awarded a special prize at the 50th German *Jugend forscht* national competition, it makes quantitative spectral measurements accessible without expensive laboratory equipment.
 
@@ -57,11 +57,11 @@ Pre-built binaries are available on the [GitHub Releases](https://github.com/lho
 * **Windows Installer (recommended):** Download `Spectral-Explorer-<version>-Setup.exe` and run it to install the application with Start Menu / Desktop shortcuts.
 * **Portable Archive (no admin rights required):** Download `Spectral-Explorer-<version>-portable.zip`, extract all files to a folder of your choice, and run `Spectral-Explorer.exe`.
 
-> **Next steps:** Read the **[User Guide](docs/user_guide.md)** for safety notes, slit adjustment, CFL wavelength calibration (436 nm / 611 nm), and software usage.
+**Next steps:** Read the **[User Guide](docs/user_guide.md)** for safety notes, slit adjustment, CFL wavelength calibration (436 nm / 611 nm), and software usage.
 
 ## Hardware
 
-> **Want to build your own?** The spectrometer uses a 3D-printed matte black housing for low-cost, reproducible assembly. Follow the step-by-step **[Hardware Assembly Guide](hardware/assembly_instructions.md)** and find all `.stl` meshes, FreeCAD source files (`.FCStd`), and print profiles (`.ini`) in [`hardware/case/`](hardware/case/) and [`hardware/cuvette_holder/`](hardware/cuvette_holder/).
+**Want to build your own?** The spectrometer uses a 3D-printed matte black housing for low-cost, reproducible assembly. Follow the step-by-step **[Hardware Assembly Guide](hardware/assembly_instructions.md)** and find all `.stl` meshes, FreeCAD source files (`.FCStd`), and print profiles (`.ini`) in [`hardware/case/`](hardware/case/) and [`hardware/cuvette_holder/`](hardware/cuvette_holder/).
 
 * **Housing & lid:** Main body ([`case.stl`](hardware/case/case.stl)), top lid ([`cap.stl`](hardware/case/cap.stl)), cover plates ([`plate_front.stl`](hardware/case/plate_front.stl), [`plate_right.stl`](hardware/case/plate_right.stl)), and internal nut holder ([`nut_holder.stl`](hardware/case/nut_holder.stl)) — printed in matte black to minimize internal reflections.
 * **Optical slit:** Two razor-blade halves—a fixed left half ([`aperture.stl`](hardware/case/aperture.stl)) and a magnetically held right half ([`aperture_magnet.stl`](hardware/case/aperture_magnet.stl))—adjusted via knurled nuts for fine slit-width control.
@@ -76,7 +76,7 @@ Pre-built binaries are available on the [GitHub Releases](https://github.com/lho
 
 ## Building from Source (Developers)
 
-> **Regular users do not need this section** — use the pre-built installer or portable zip from [Download & Install (Windows)](#download--install-windows) above.
+*Regular users do not need this section — use the pre-built installer or portable zip from [Download & Install (Windows)](#download--install-windows) above.*
 
 <details>
 <summary>Click to expand Windows build, deployment, and packaging instructions</summary>
@@ -85,7 +85,7 @@ Pre-built binaries are available on the [GitHub Releases](https://github.com/lho
 
 The project targets **Qt 5.11.3 (MinGW 32-bit)** and **OpenCV 2.4.13 (MinGW)** installed at `C:/opencv-2-4-13/install/` (as configured in `spectral_explorer.pro`).
 
-> **Note:** OpenCV 3.4.5 is intentionally avoided because it does not allow using the full native resolution of the Logitech C270 webcam (it scales up the image instead).
+*Note: OpenCV 3.4.5 is intentionally avoided because it does not allow using the full native resolution of the Logitech C270 webcam (it scales up the image instead).*
 
 ### 1. Install Prerequisites
 
