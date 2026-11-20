@@ -1,0 +1,9 @@
+*~
+*.user*
+.git/
+*.o
+build/
+doxygen/
+build_windows/
+build_tests/
+dist/
